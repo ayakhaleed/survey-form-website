@@ -1,0 +1,71 @@
+
+#title{
+    text-align:center;
+    padding:auto;
+    max-width:70%;
+    margin:auto;
+    font-family:sans-serif;
+    color:white;
+    text-shadow:1px 1px 5px; 
+    }
+    #description{
+      font-weight:bold;
+      padding:1em;
+      color:white;
+      font-style:italic;
+      text-align:center;
+    }
+    label,input,select,textarea{
+      color:white;
+      margin-top:1em;
+      margin-left:1rem;
+      
+    }
+    select,textarea,input[id="name"],input[id="email"],input[id="number"],label{
+      display:block;
+      width:80%;
+    
+    }
+    input[type="submit"]{ width:80%;
+      color:black;
+      font-weight:bold;
+      box-shadow:2px 2px 6px #ffcccc;
+    background-color:#ffcccc;
+      
+    }
+    
+    input,select,textarea{
+      
+      border-radius:4px;
+      padding:0.3rem; margin-bottom:2rem;
+      
+    }
+    body{
+      background-image:url(https://th.bing.com/th/id/R.9fdc15c7331e4f8756e9cef5db3ba083?rik=oPIerD%2f7XmrCuA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f2I03ZvH.jpg&ehk=vo07mC7xk%2bnKqQzTPEjg6hnrl3shhLFsscAlFFJ53MQ%3d&risl=&pid=ImgRaw&r=0)
+    }
+    form{
+      background-color:rgb(0, 89, 179,0.4);
+      width:60%;
+      padding:1%;
+      margin:auto;
+      border-radius:4px;
+      
+    }
+    fieldset{
+      border-radius:4px;
+      margin:auto;
+      border:dashed white;
+    }
+    select{
+      color:black;
+    }
+    input[type="radio"]{
+      margin:0.7em;
+    }
+    input[type="checkbox"]{
+      margin-bottom:0;
+      margin-top:0;
+    }
+    input[id="add"]{
+      margin-bottom:1em;
+    }
